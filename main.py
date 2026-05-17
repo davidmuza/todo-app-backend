@@ -66,7 +66,7 @@ async def update_task(task_id: str, task_update: TaskUpdate) -> Task:
                 task.completed = task_update.completed
                 
             return task
-    
+
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Task not found.")
 
 
