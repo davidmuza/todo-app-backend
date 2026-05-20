@@ -5,8 +5,6 @@ from app.api.routers.category import router as category_router
 
 app = FastAPI()
 
-#https://zenx.page/Pk7WUyZoLht3cnB2
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
