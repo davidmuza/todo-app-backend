@@ -12,7 +12,10 @@ configure_logging()
 app = FastAPI()
 logger = logging.getLogger("app.middleware")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0e662fef34556ceb2cabae518351b0cbf48517b4
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
